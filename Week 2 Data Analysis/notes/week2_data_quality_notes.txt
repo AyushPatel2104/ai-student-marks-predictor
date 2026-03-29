@@ -1,0 +1,12 @@
+Week 2 – Data Quality Analysis
+
+Dataset Size: 1200 rows
+
+Objective:
+Check dataset for missing or incomplete values.
+
+Result:
+No missing values detected.
+
+Conclusion:
+Dataset is clean and ready for further data analysis and machine learning.

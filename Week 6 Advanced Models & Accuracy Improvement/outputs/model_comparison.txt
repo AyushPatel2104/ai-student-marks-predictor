@@ -1,0 +1,12 @@
+
+MODEL COMPARISON RESULTS
+
+Linear Regression:
+MAE: 4.96
+R2 Score: 0.87
+
+Random Forest:
+MAE: 5.59
+R2 Score: 0.83
+
+Best Model: Linear Regression

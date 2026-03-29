@@ -1,0 +1,26 @@
+WEEK 6 NOTES — ADVANCED MACHINE LEARNING
+
+1. Random Forest:
+- Multiple decision trees combine to give better prediction.
+
+2. Model Comparison:
+- Different models are tested to find best performance.
+
+3. MAE:
+- Lower MAE = better model.
+
+4. R2 Score:
+- Closer to 1 = better model.
+
+5. Hyperparameter Tuning:
+- Model settings optimize karva.
+
+6. GridSearchCV:
+- Automatically best parameters find kare.
+
+7. Final Model:
+- Best tuned model used for real prediction.
+
+8. .pkl File:
+- Trained model save kare.
+- Reusable AI system banave.

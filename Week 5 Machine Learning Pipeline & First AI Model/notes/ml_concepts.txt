@@ -1,0 +1,28 @@
+WEEK 5 NOTES — MACHINE LEARNING BASICS
+
+1. Machine Learning:
+Machine Learning is a method where systems learn patterns from data and make predictions.
+
+2. Supervised Learning:
+We train model using input (X) and output (y).
+
+3. Linear Regression:
+Used to predict continuous values.
+
+4. MAE (Mean Absolute Error):
+Average difference between actual and predicted values.
+
+5. MSE (Mean Squared Error):
+Gives higher penalty to larger errors.
+
+6. Feature Importance:
+Shows which factors influence prediction most.
+
+7. Model Saving (.pkl):
+Used to store trained model for future use.
+
+8. Data Leakage:
+Using target-related features leads to fake high accuracy.
+
+9. Train-Test Split:
+Used to test model performance on unseen data.

@@ -1,0 +1,66 @@
+AI INTERNSHIP PROGRAM
+WEEK 3 REPORT
+
+Intern Name: Ayush Patel
+
+----------------------------------------
+OBJECTIVE
+----------------------------------------
+The objective of Week 3 was to perform advanced data visualization and extract meaningful insights from the dataset.
+
+----------------------------------------
+DATASET DETAILS
+----------------------------------------
+Dataset Name: Student Performance Dataset  
+Total Records: 1200 Students  
+
+----------------------------------------
+TASKS PERFORMED
+----------------------------------------
+
+1. Study Hours vs Score Analysis
+- Created scatter plot
+- Observed relationship between study time and performance
+
+2. Attendance vs Score Analysis
+- Visualized attendance impact on marks
+- Compared with study hours influence
+
+3. Gender Performance Analysis
+- Used boxplot to compare performance distribution
+- Analyzed variation between male and female students
+
+4. Score Distribution Analysis
+- Used histogram to understand score distribution
+- Identified average performance range
+
+5. Correlation Heatmap
+- Analyzed relationships between all numerical features
+- Identified strongest factors affecting performance
+
+----------------------------------------
+KEY INSIGHTS
+----------------------------------------
+- Students who study more tend to achieve higher marks.
+- Attendance has a positive impact on performance but is less influential than study hours.
+- Previous exam score has a strong correlation with final performance.
+- Most students fall within the average score range.
+- Performance variation between genders is minimal.
+
+----------------------------------------
+TOOLS USED
+----------------------------------------
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+
+----------------------------------------
+OUTCOME
+----------------------------------------
+Successfully visualized data and extracted meaningful insights that explain student performance behavior.
+
+----------------------------------------
+CONCLUSION
+----------------------------------------
+Week 3 enhanced understanding of how to interpret data visually and derive actionable insights from datasets.

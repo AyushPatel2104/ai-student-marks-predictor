@@ -1,0 +1,83 @@
+AI INTERNSHIP PROGRAM
+WEEK 2 REPORT
+
+Intern Name: Ayush Patel
+
+----------------------------------------
+OBJECTIVE
+----------------------------------------
+The objective of Week 2 was to understand and analyze a real-world dataset using Python and Pandas. The goal was to clean, process, and extract meaningful insights from the dataset.
+
+----------------------------------------
+DATASET DETAILS
+----------------------------------------
+Dataset Name: Student Performance Dataset  
+Total Records: 1200 Students  
+Features: Study Hours, Attendance, Previous Score, Final Score, etc.
+
+----------------------------------------
+TASKS PERFORMED
+----------------------------------------
+
+1. Data Loading
+- Loaded dataset using pandas library
+- Explored structure using head(), info(), and shape
+
+2. Data Exploration (EDA)
+- Analyzed dataset statistics using describe()
+- Understood data distribution and structure
+
+3. Missing Value Analysis
+- Checked for null values using isnull()
+- Found no missing values in dataset
+
+4. Data Cleaning
+- Removed duplicate records
+- Fixed data consistency issues
+- Rounded numerical values for better readability
+
+5. Feature Engineering
+- Created new features:
+  • Total_Score = Previous + Final Score
+  • Study_Efficiency = Score / Study Hours
+
+6. Mini Data Analysis Project
+- Calculated average student score
+- Identified top and lowest performing students
+- Segmented students into above and below average groups
+
+7. Data Visualization
+- Created bar chart (Above vs Below Average)
+- Created pie chart (Performance Distribution)
+
+8. Full Data Pipeline
+- Built a complete analysis system combining:
+  • Data Cleaning
+  • Feature Engineering
+  • Analysis
+  • Visualization
+  • Report Generation
+
+----------------------------------------
+KEY INSIGHTS
+----------------------------------------
+- Students who study more and have higher attendance tend to score better.
+- Low study hours and poor attendance result in lower performance.
+- The dataset shows a balanced distribution of student performance.
+
+----------------------------------------
+TOOLS & TECHNOLOGIES USED
+----------------------------------------
+- Python
+- Pandas
+- Matplotlib
+
+----------------------------------------
+OUTCOME
+----------------------------------------
+Successfully built an end-to-end data analysis pipeline and gained practical experience in real-world data processing and visualization.
+
+----------------------------------------
+CONCLUSION
+----------------------------------------
+Week 2 helped in developing strong data analysis skills, understanding data behavior, and preparing datasets for machine learning applications.
