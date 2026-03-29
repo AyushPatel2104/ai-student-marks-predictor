@@ -1,0 +1,10 @@
+
+FULL DATA ANALYSIS REPORT
+
+Average Score: 75.2
+
+Top Student Score: 116.2
+Lowest Student Score: 34.4
+
+Students Above Avg: 613
+Students Below Avg: 585

@@ -1,0 +1,77 @@
+AI INTERNSHIP PROGRAM
+WEEK 5 REPORT
+
+Intern Name: Ayush Patel
+
+----------------------------------------
+OBJECTIVE
+----------------------------------------
+The objective of Week 5 was to build a machine learning model to predict student performance and create a reusable AI prediction system.
+
+----------------------------------------
+TASKS PERFORMED
+----------------------------------------
+
+1. Problem Definition
+- Defined the objective to predict final exam score using student data.
+
+2. Model Building
+- Built Linear Regression model using selected features:
+  • Study Hours
+  • Attendance
+  • Previous Score
+
+3. Train-Test Split
+- Split data into training and testing sets.
+
+4. Model Evaluation
+- Evaluated using:
+  • Mean Absolute Error (MAE)
+  • Mean Squared Error (MSE)
+
+5. Feature Importance
+- Identified most impactful features affecting performance.
+
+6. Model Comparison
+- Compared Linear Regression with Decision Tree.
+
+7. Visualization
+- Created plots:
+  • Regression line
+  • Feature importance
+  • Model comparison
+
+8. Model Saving
+- Saved trained model using joblib (.pkl file)
+
+9. Prediction System
+- Built:
+  • Static predictor
+  • Interactive predictor (user input system)
+
+----------------------------------------
+KEY INSIGHTS
+----------------------------------------
+- Study Hours has the highest impact on performance.
+- Previous academic performance plays a moderate role.
+- Attendance has a lower but noticeable impact.
+- Decision Tree sometimes performs better than Linear Regression.
+
+----------------------------------------
+TOOLS USED
+----------------------------------------
+- Python
+- Pandas
+- Scikit-learn
+- Matplotlib
+- Joblib
+
+----------------------------------------
+OUTCOME
+----------------------------------------
+Successfully built a complete machine learning pipeline and developed a reusable AI prediction system.
+
+----------------------------------------
+CONCLUSION
+----------------------------------------
+Week 5 provided hands-on experience in building, evaluating, and deploying machine learning models, similar to real industry workflows.

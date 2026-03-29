@@ -1,0 +1,5 @@
+
+MODEL RESULTS
+
+Mean Absolute Error (MAE): 4.96
+Mean Squared Error (MSE): 32.9

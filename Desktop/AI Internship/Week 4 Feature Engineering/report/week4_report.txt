@@ -1,0 +1,44 @@
+AI INTERNSHIP PROGRAM
+WEEK 4 REPORT
+
+Intern Name: Ayush Patel
+
+----------------------------------------
+OBJECTIVE
+----------------------------------------
+The objective of Week 4 was to prepare the dataset for machine learning by applying advanced feature engineering, encoding, and scaling techniques.
+
+----------------------------------------
+TASKS PERFORMED
+----------------------------------------
+
+1. Advanced Feature Engineering
+- Created new features:
+  • Study_Efficiency = Score / Study Hours
+  • Score_Improvement = Final - Previous Score
+  • Performance_Category (High / Medium / Low)
+
+2. Encoding
+- Converted categorical data into numerical format:
+  • Gender → 0/1
+  • Performance_Category → 0/1/2
+
+3. Feature Scaling
+- Applied StandardScaler to normalize numerical values
+- Ensured all features are in similar range for ML models
+
+----------------------------------------
+FINAL DATASET
+----------------------------------------
+Dataset Name: student_performance_scaled.csv  
+Status: Machine Learning Ready  
+
+----------------------------------------
+OUTCOME
+----------------------------------------
+Successfully transformed raw data into a structured and optimized dataset suitable for machine learning model training.
+
+----------------------------------------
+CONCLUSION
+----------------------------------------
+Week 4 helped in understanding the importance of data preparation and how feature engineering, encoding, and scaling improve model performance.

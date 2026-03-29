@@ -1,0 +1,50 @@
+
+========================================
+     STUDENT PERFORMANCE REPORT
+========================================
+
+Average Score         : 75.2
+Top Student Score     : 116.2
+Lowest Student Score  : 34.4
+
+----------------------------------------
+TOP STUDENT DETAILS
+----------------------------------------
+Student_ID                  418
+Gender                   Female
+Age                          18
+Study_Hours_per_Day           9
+Sleep_Hours                   5
+Attendance_Percentage        96
+Assignments_Completed         2
+Previous_Exam_Score          86
+Internet_Access             Yes
+Family_Income_Level        High
+Final_Exam_Score          116.2
+Name: 417, dtype: object
+
+----------------------------------------
+LOWEST STUDENT DETAILS
+----------------------------------------
+Student_ID                 1001
+Gender                   Female
+Age                          21
+Study_Hours_per_Day           1
+Sleep_Hours                   6
+Attendance_Percentage        62
+Assignments_Completed         4
+Previous_Exam_Score          42
+Internet_Access              No
+Family_Income_Level      Medium
+Final_Exam_Score           34.4
+Name: 1000, dtype: object
+
+----------------------------------------
+SUMMARY
+----------------------------------------
+Students Above Average : 613
+Students Below Average : 585
+
+========================================
+END OF REPORT
+========================================

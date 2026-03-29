@@ -1,0 +1,5 @@
+PROBLEM STATEMENT
+
+-->We aim to build a machine learning model that predicts the final exam score of students based on their study habits, 
+   attendance, and previous academic performance.The goal is to understand key factors affecting student performance 
+   and build a predictive system.

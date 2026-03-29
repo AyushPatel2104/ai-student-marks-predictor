@@ -1,0 +1,15 @@
+MISSING VALUE ANALYSIS REPORT
+
+Student_ID : 0
+Gender : 0
+Age : 0
+Study_Hours_per_Day : 0
+Sleep_Hours : 0
+Attendance_Percentage : 0
+Assignments_Completed : 0
+Previous_Exam_Score : 0
+Internet_Access : 0
+Family_Income_Level : 0
+Final_Exam_Score : 0
+
+Total Missing Values: 0
