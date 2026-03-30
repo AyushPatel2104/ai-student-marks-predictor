@@ -8,7 +8,7 @@ app = Flask(__name__)
 # -------------------------------
 # LOAD MODEL
 
-BASE_DIR = os.path.dirname(__file__)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(BASE_DIR, "..", "outputs", "final_model.pkl")
 
 model = joblib.load(MODEL_PATH)
@@ -134,8 +134,7 @@ def home():
 
         pred = model.predict(data)
         result = round(pred[0], 2)
-
-        # PERFORMANCE CATEGORY
+        
         if result < 40:
             status = "❌ Fail"
         elif result < 60:
@@ -148,7 +147,8 @@ def home():
     return render_template_string(HTML, result=result, status=status)
 
 # -------------------------------
-# RUN
+# RUN (CLEAN)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)
