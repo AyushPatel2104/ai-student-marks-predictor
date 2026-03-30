@@ -6,12 +6,22 @@ import os
 app = Flask(__name__)
 
 # -------------------------------
-# LOAD MODEL
+# LOAD MODEL (SAFE)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(BASE_DIR, "..", "outputs", "final_model.pkl")
 
-model = joblib.load(MODEL_PATH)
+model = None
+
+try:
+    if os.path.exists(MODEL_PATH):
+        model = joblib.load(MODEL_PATH)
+        print("✅ Model loaded successfully")
+    else:
+        print("❌ Model file not found")
+except Exception as e:
+    print("❌ Error loading model:", e)
+    model = None
 
 # -------------------------------
 # HTML UI
@@ -72,6 +82,12 @@ HTML = """
             font-size: 20px;
             color: green;
         }
+
+        .error {
+            margin-top: 20px;
+            font-size: 18px;
+            color: red;
+        }
     </style>
 </head>
 
@@ -107,6 +123,12 @@ Performance: {{status}}
 </div>
 {% endif %}
 
+{% if error %}
+<div class="error">
+{{error}}
+</div>
+{% endif %}
+
 </div>
 
 </body>
@@ -120,34 +142,43 @@ Performance: {{status}}
 def home():
     result = None
     status = None
+    error = None
 
     if request.method == "POST":
-        study = float(request.form["study"])
-        attendance = float(request.form["attendance"])
-        previous = float(request.form["previous"])
+        try:
+            study = float(request.form["study"])
+            attendance = float(request.form["attendance"])
+            previous = float(request.form["previous"])
 
-        data = pd.DataFrame({
-            "Study_Hours_per_Day": [study],
-            "Attendance_Percentage": [attendance],
-            "Previous_Exam_Score": [previous]
-        })
+            if model is not None:
+                data = pd.DataFrame({
+                    "Study_Hours_per_Day": [study],
+                    "Attendance_Percentage": [attendance],
+                    "Previous_Exam_Score": [previous]
+                })
 
-        pred = model.predict(data)
-        result = round(pred[0], 2)
-        
-        if result < 40:
-            status = "❌ Fail"
-        elif result < 60:
-            status = "⚠ Average"
-        elif result < 80:
-            status = "👍 Good"
-        else:
-            status = "🏆 Excellent"
+                pred = model.predict(data)
+                result = round(pred[0], 2)
 
-    return render_template_string(HTML, result=result, status=status)
+                if result < 40:
+                    status = "❌ Fail"
+                elif result < 60:
+                    status = "⚠ Average"
+                elif result < 80:
+                    status = "👍 Good"
+                else:
+                    status = "🏆 Excellent"
+
+            else:
+                error = "⚠ Model not loaded. Please check deployment."
+
+        except Exception as e:
+            error = f"Error: {str(e)}"
+
+    return render_template_string(HTML, result=result, status=status, error=error)
 
 # -------------------------------
-# RUN (CLEAN)
+# RUN
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))
