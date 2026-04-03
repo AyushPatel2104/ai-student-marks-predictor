@@ -1,0 +1,104 @@
+WEEK 7 REPORT
+
+Intern Name: Ayush Patel
+
+----------------------------------------
+OBJECTIVE
+----------------------------------------
+
+The objective of Week 7 was to build an advanced classification-based AI system, perform in-depth model evaluation, and develop real-world usable AI applications including pipeline automation and simulation systems.
+
+----------------------------------------
+TASKS PERFORMED
+----------------------------------------
+1. Data Preprocessing
+Loaded and cleaned the dataset
+Handled missing values using mean imputation
+Created a new feature (Exam_Score)
+Converted numerical scores into categorical labels (Performance)
+
+2. Exploratory Data Analysis (EDA)
+Analyzed class distribution of student performance
+Created histograms for feature distribution
+Generated correlation heatmap to identify relationships
+Used boxplots to detect outliers
+
+3. Multi-Model Training
+Trained multiple classification models:
+• Decision Tree
+• Random Forest
+• Logistic Regression
+Performed train-test split (80-20)
+Compared models using accuracy and classification report
+
+4. Data Leakage Handling
+Identified leakage due to Final_Exam_Score
+Removed it from input features to ensure realistic model performance
+
+5. Model Evaluation
+Generated confusion matrix
+Created classification report
+Performed error analysis to identify wrong predictions
+Observed class-wise performance differences
+
+6. Feature Importance
+Extracted feature importance using Random Forest
+Visualized important features using graphs
+Identified key factors affecting performance
+
+7. ML Pipeline Implementation
+Built pipeline using:
+• StandardScaler
+• RandomForestClassifier
+Automated preprocessing and prediction steps
+Saved pipeline model for production use
+
+8. CLI Prediction System
+Developed command-line interface for user input
+Integrated model for real-time prediction
+Added input validation and dataset-based guidelines
+
+9. Mini Project 1 — Student Risk Analyzer
+Built system to convert predictions into risk levels:
+• Excellent → Low Risk
+• Good → Medium Risk
+• Average → High Risk
+• Fail → Critical Risk
+Simulated real-world decision-making system
+
+10. Mini Project 2 — Student Performance Simulator
+Created multiple student scenarios
+Tested model behavior under different conditions
+Analyzed performance trends across scenarios
+
+----------------------------------------
+KEY INSIGHTS
+----------------------------------------
+Random Forest provided the best performance among all models
+Study hours, attendance, and previous scores are major influencing factors
+Model performance is strong for majority classes but weaker for minority class (Fail)
+Data leakage can significantly affect model accuracy if not handled properly
+Balanced input features lead to better prediction outcomes
+Both study consistency and attendance are critical for student success
+
+----------------------------------------
+TOOLS USED
+----------------------------------------
+Python
+Pandas
+Scikit-learn
+Matplotlib
+Seaborn
+Joblib
+----------------------------------------
+OUTCOME
+----------------------------------------
+
+Successfully developed a complete end-to-end AI classification system including preprocessing, model training, evaluation, pipeline integration, and real-world simulation tools.
+
+----------------------------------------
+CONCLUSION
+----------------------------------------
+
+Week 7 provided hands-on experience in building an advanced machine learning system with real-world components such as model evaluation, pipeline automation, and simulation.
+The work reflects industry-level AI development practices and significantly improves readiness for real-world applications and job opportunities.
