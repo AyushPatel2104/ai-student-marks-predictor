@@ -1,0 +1,11 @@
+2026-04-04 11:23:19.669163 | Input: {'age': '19', 'study_hours': '7', 'sleep_hours': '8', 'attendance': '65', 'assignments': '6', 'previous_score': '62'} | Output: Excellent, Low Risk
+2026-04-04 11:54:20.066771 | Input: {'age': 18, 'study_hours': 8, 'sleep_hours': 8, 'attendance': 50, 'assignments': 6, 'previous_score': 65} | Output: Excellent, Low Risk, 65.5
+Risk, 65.5
+2026-04-04 12:06:14.097034 | Input: {'age': 16, 'study_hours': 5, 'sleep_hours': 8, 'attendance': 50, 'assignments': 6, 'previous_score': 56} | Output: Good, Medium Risk, 48.7
+Risk, 48.7
+2026-04-04 12:14:01.080620 | Input: {'age': 18, 'study_hours': 6, 'sleep_hours': 8, 'attendance': 50, 'assignments': 6, 'previous_score': 60} | Output: Good, Medium Risk, 54.5
+Risk, 54.5
+2026-04-04 12:14:04.617199 | Input: {'age': '18', 'study_hours': '6', 'sleep_hours': '8', 'attendance': '50', 'assignments': '6', 'previous_score': '60'} | Output: Good, Medium Risk, 54.5
+2026-04-04 12:14:04.629659 | Input: {'age': 18, 'study_hours': 6, 'sleep_hours': 8, 'attendance': 50, 'assignments': 6, 'previous_score': 60} | Output: Good, Medium Risk, 54.5
+2026-04-04 12:16:18.817157 | Input: {'age': '18', 'study_hours': '8', 'sleep_hours': '6', 'attendance': '50', 'assignments': '6', 'previous_score': '50'} | Output: Good, Medium Risk, 62.5
+2026-04-04 12:16:20.210950 | Input: {'age': '18', 'study_hours': '8', 'sleep_hours': '6', 'attendance': '50', 'assignments': '6', 'previous_score': '50'} | Output: Good, Medium Risk, 62.5
