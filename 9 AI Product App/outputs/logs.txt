@@ -1,0 +1,4 @@
+2026-04-04 15:13:09.565752 | Input: {'age': 18, 'study_hours': 7, 'sleep_hours': 8, 'attendance': 70, 'assignments': 7, 'previous_score': 50} | Output: Excellent, Low Risk, 62.5
+2026-04-04 15:23:26.924165 | Input: {'age': 19, 'study_hours': 7, 'sleep_hours': 8, 'attendance': 65, 'assignments': 7, 'previous_score': 55} | Output: Excellent, Low Risk, 62.25
+2026-04-04 15:39:58.807945 | Input: {'age': 16, 'study_hours': 8, 'sleep_hours': 8, 'attendance': 85, 'assignments': 8, 'previous_score': 75} | Output: Excellent, Low Risk, 76.25
+2026-04-04 15:45:12.349499 | Input: {'age': 18, 'study_hours': 8, 'sleep_hours': 8, 'attendance': 75, 'assignments': 8, 'previous_score': 71} | Output: Excellent, Low Risk, 72.95
